@@ -30,7 +30,10 @@ section {
 	/*margin: 10px;*/
 }
 
-section div{border: solid 1px;}
+section div{
+	border: solid 1px;
+	background-color: #ffe5e5;
+}
 
 /*Section Title*/
 section div:first-child{
@@ -52,32 +55,15 @@ section div:first-child{
 	background-color: #CDA3A3;
 }
 
-#chicken>div{
-	background-color: #ffe5e5;
+#chicken>div{overflow: hidden;}
 
-	overflow: hidden;
-}
+#beef div:first-child {background-color: #AD3232;}
 
-#beef div:first-child {
-	color: white;
-	border-color: black;
-	background-color: #AD3232;
-}
+#beef>div{overflow: hidden;}
 
-#beef>div{
-	background-color: #d69898;
+#sushi div:first-child {background-color: #f4f499;}
 
-	overflow: hidden;
-}
-
-#sushi div:first-child {
-	background-color: #f4f499;
-}
-
-#sushi>div{
-	background-color: #fcfcea;
-	overflow: hidden;
-}
+#sushi>div{overflow: hidden;}
 
 /* Simple Responsive Framework. */
 .row {
