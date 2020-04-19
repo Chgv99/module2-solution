@@ -30,10 +30,7 @@ section {
 	/*margin: 10px;*/
 }
 
-section div{
-	border: solid 1px;
-	padding: 5px;
-}
+section div{border: solid 1px;}
 
 /*Section Title*/
 section div:first-child{
